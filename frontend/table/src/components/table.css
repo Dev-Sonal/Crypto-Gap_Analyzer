@@ -1,0 +1,110 @@
+.bg {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.scrollable-container {
+  height: 100vh; /* Set the height of the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.back{
+  padding: 20px;
+  color: azure;
+}
+.header {
+  color: azure;
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items to opposite ends */
+  align-items: center;
+  margin-bottom: 20px;
+}
+.prog{
+  display: flex;
+  flex-direction: row;
+  margin-left: 320px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.name {
+  font-weight: 900;
+}
+.naem3{
+  font-weight: 10000;
+}
+.name2{
+  
+  font-weight: 10000;
+  padding-left: 40px;
+}
+.additional-table{
+  margin-left: 328px;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  
+  margin-left: 1450px;
+}
+.button-container{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 5px solid;
+  margin-right: 10px;
+}
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.avatar-container {
+  flex: 0 0 auto;
+}
+
+.info {
+  flex: 1 1 auto;
+  padding-left: 20px; /* Add some spacing between the avatar and info box */
+}
+
+.info-box {
+  margin-top: 100px;
+  padding: 20px;
+  max-width: 1300px;
+  margin-left: 110px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* UserProfilePage.css */
+.white-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:200px;
+  margin-top: 70px;
+  margin-left: 110px;
+  max-width: 1324px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table3{
+  margin-left: 130px;
+  margin-top: 70px;
+}
+
+
